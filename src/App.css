@@ -1,0 +1,38 @@
+/* Scroll bar styles */
+::-webkit-scrollbar {
+    width: 10px; /* Width of vertical scroll bar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Color of thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of thumb on hover */
+  }
+  body, html {
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  .App {
+    text-align: center;
+    overflow: hidden;
+  }
+  html, body {
+    height: 100%;
+  }
+  /* Add this CSS in your main CSS file */
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex: 1;
+  }
